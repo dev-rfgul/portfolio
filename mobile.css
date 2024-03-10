@@ -1,0 +1,415 @@
+
+
+@media (max-width:2560px) {
+    .home-img img {
+     
+        width: 19vw;
+}
+    .about-img img {
+        width: 16vw;
+    }
+}
+@media (max-width:2315px) {
+    .home-img img {
+     
+        width: 20vw;
+}
+    .about-img img {
+        width: 18vw;
+    }
+}
+@media (max-width:2270px) {
+    .home-img img {
+     
+        width: 20vw;
+}
+    .about-img img {
+        width: 18vw;
+    }
+
+}
+@media (max-width:2165px) {
+    .home-img img {
+     
+        width: 20vw;
+}
+    .about-img img {
+        width: 20vw;
+    }
+}
+@media (max-width:2100px) {
+    .home-img img {
+     
+        width: 23vw;
+}
+    .about-img img {
+        width: 19vw;
+    }
+}
+@media (max-width:2000px) {
+    .about-img img {
+        width: 17vw;
+    }
+    .home-img img {
+     
+        width: 23vw;
+}
+}
+@media (max-width:1800px) {
+    .about-img img {
+        width: 17vw;
+    }
+}
+@media (max-width:1735px) {
+    .about-img img {
+        width: 22vw;
+    }
+    
+    
+
+}
+
+@media (max-width:1200px) {}
+
+@media (max-width:1100px) {
+    .home {
+        margin-top: 100px;
+    }
+
+    .projects {
+        margin-top: 250px;
+    }
+
+    .project-layer h4 {
+        font-size: 32px;
+    }
+
+    .project-layer h4 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width:1000px) {
+    .home {
+        margin-top: 100px;
+    }
+
+    #about-div {
+        height: 100%;
+        width: 100%;
+        margin: 25px 0px;
+
+    }
+
+    .projects {
+        margin-top: 250px;
+    }
+
+    .project-layer h4 {
+        font-size: 20px;
+    }
+
+    .project-layer p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:1050px) {
+    .project-layer h4 {
+        font-size: 30px;
+    }
+
+    .project-layer p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:845px) {
+    .project-layer h4 {
+        font-size: 19px;
+    }
+    .project-layer p {
+        font-size: 8px;
+    }
+    .contact form .input-box input {
+        width: 44%;
+    }
+
+
+}
+@media (max-width:800px) {
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5 1rem rgba(0, 0, 0, .2);
+        display: none;
+    }
+
+    .navbar.active {
+        display: block;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    .projects {
+        margin-top: 303px;
+    }
+
+    .project-layer h4 {
+        font-size: 20px;
+    }
+
+    .project-layer p {
+        font-size: 9px;
+    }
+
+    .contact form .input-box input {
+        width: 44%;
+    }
+
+}
+
+@media(max-width:700px) {
+    .home {
+        flex-direction: column;
+        margin-top: 270px;
+    }
+
+    .home-img img {
+        margin-top: 40px;
+        width: 30rem;
+    }
+    
+
+    .about {
+        flex-direction: column-reverse;
+        height: 150vh;
+    }
+
+    .about-content {
+        margin-top: 100px;
+    }
+
+    .about-img img {
+        /* margin-top: 40px; */
+        width: 35rem;
+    }
+    .services{
+        height: 140vh;
+    }
+    .projects {
+        height: 100%;
+    }
+    .project-layer h4 {
+        font-size: 40px;
+    }
+
+    .project-layer p {
+        font-size: 20px;
+    }
+   
+
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+
+    .project-layer h4 {
+        font-size: 40px;
+    }
+
+    .project-layer p {
+        font-size: 20px;
+    }
+
+    .contact {
+        height: 100%;
+    }
+}
+
+@media(max-width:768px) {
+  
+    .project-layer h4 {
+        font-size: 18px;
+    }
+
+    .project-layer p {
+        font-size: 9px;
+    }
+
+    #cursor-dot {
+        display: none;
+    }
+
+    #cursor-blur {
+        display: none;
+    }
+    .projects {
+        height: 100%;
+    }
+    .project-layer h4 {
+        font-size: 40px;
+    }
+
+    .project-layer p {
+        font-size: 20px;
+    }
+   
+
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+
+    .project-layer h4 {
+        font-size: 40px;
+    }
+
+    .project-layer p {
+        font-size: 20px;
+    }
+
+    .contact {
+        height: 100%;
+    }
+}
+
+@media(max-width:600px) {
+    section{
+        height: 130vh;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5 1rem rgba(0, 0, 0, .2);
+        display: none;
+    }
+
+    .navbar.active {
+        display: block;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    .projects {
+        height: 100%;
+        margin-top: 580px;
+    }
+
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+
+    
+
+    .contact {
+        height: 100%;
+    }
+
+
+
+
+}
+
+@media(max-width:500px) {
+    html {
+        font-size: 50%;
+    }
+
+    .home {
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+    .home-img img {
+        margin-top: 40px;
+        width: 35rem;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+    }
+
+    .about-content {
+        margin-top: 100px;
+    }
+
+    .about-img img {
+        /* margin-top: 40px; */
+        width: 35rem;
+    }
+
+    .projects {
+        height: 100%;
+        margin-top: 370px;
+    }
+
+    .project-layer h4 {
+        font-size: 32px;
+    }
+
+    .project-layer p {
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width:360px) {
+    .projects {
+        margin-top: 420px;
+    }
+}
+
+@media(max-width:300px) {
+
+    .about-img img {
+        width: 52vw;
+    }
+
+    .services-box p {
+        font-size: 10px;
+    }
+
+    .project-layer h4 {
+        font-size: 20px;
+    }
+
+    .project-layer p {
+        font-size: 10px;
+    }
+
+    .contact form .input-box input {
+        font-size: 9px;
+    }
+
+    .footer-text p {
+        font-size: 10px;
+    }
+
+
+}

@@ -78,10 +78,10 @@ ScrollReveal().reveal(".home-content p , .about-content  ", {
 
 // typed js
 const typed = new Typed(".multiple-text", {
-  strings: [" Student", "Programmer. . .", "Web Developer. . .","Blogger. . ."],
-  typeSpeed: 100,
-  backSpeed: 100,
-  typeDelay: 1000,
+  strings: ["Meta | Google Certified "," Front  End Developer",  "Skilled in React JS","Git/GitHub ","Advancing in MERN "],
+  typeSpeed: 10,
+  backSpeed: 10,
+  typeDelay: 2050,
   loop: true,
 });
 
@@ -94,9 +94,9 @@ const typed = new Typed(".multiple-text", {
 //     // console.log("fb triggered")
 // })
 
-let facebook = document.querySelector(".facebook");
-facebook.addEventListener("click", () => {
-  window.open("https://www.facebook.com/raofahad.gul", "_blank");
+let github = document.querySelector(".github");
+github.addEventListener("click", () => {
+  window.open("https://github.com/dev-rfgul", "_blank");
   console.log("fb triggered");
 });
 let instagram = document.querySelector(".instagram");
@@ -106,13 +106,13 @@ instagram.addEventListener("click", () => {
 });
 let twitter = document.querySelector(".twitter");
 twitter.addEventListener("click", () => {
-  window.open("https://twitter.com/i/flow/login?redirect_after_login=%2Frf_gul785", "_blank");
+  window.open("https://twitter.com/rfgul785", "_blank");
   console.log("fb triggered");
 });
 let linkedin = document.querySelector(".linkedin");
 linkedin.addEventListener("click", () => {
   window.open(
-    "https://www.linkedin.com/in/raofahad-gul-567077270/",
+    "https://www.linkedin.com/in/muhammadfahad785/",
     "_blank"
   );
   console.log("fb triggered");
